@@ -4,56 +4,56 @@ import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
 export const SkillData = [
   {
     name: "Html 5",
-    Image: "/html.png",
+    Image: "/images/html.png",
     width: 80,
     height: 80,
   },
   {
     name: "Css",
-    Image: "/css.png",
+    Image: "/images/css.png",
     width: 80,
     height: 80,
   },
   {
     name: "JavaScript",
-    Image: "/js.png",
+    Image: "/images/js.png",
     width: 65,
     height: 65,
   },
   {
     name: "Tailwind Css",
-    Image: "/tailwind.png",
+    Image: "/images/tailwind.png",
     width: 80,
     height: 80,
   },
   {
     name: "React",
-    Image: "/react.png",
+    Image: "/images/react.png",
     width: 80,
     height: 80,
   },
   {
     name: "Redux",
-    Image: "/redux.png",
+    Image: "/images/redux.png",
     width: 80,
     height: 80,
   },
 
   {
     name: "TypeScript",
-    Image: "/ts.png",
+    Image: "/images/ts.png",
     width: 80,
     height: 80,
   },
   {
     name: "Next js",
-    Image: "/next.png",
+    Image: "/images/next.png",
     width: 80,
     height: 80,
   },
   {
     name: "Framer Motion",
-    Image: "/framer.png",
+    Image: "/images/framer.png",
     width: 80,
     height: 80,
   }
@@ -63,21 +63,21 @@ export const Projects = [
   {
     title: "Modern Nextjs Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    src: "/images/NextWebsite.png",
   },
   {
     title: "Space Themed Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    src: "/images/SpaceWebsite.png",
   },
   {
     title: "Modern Nextjs Portfolio",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    src: "/images/WebPortfolio.png",
   },
   {
     title: "Matrix themed Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    src: "/images/Matrix.png",
   },
 ];

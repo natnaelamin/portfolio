@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-screen pb-10 bg-cover bg-[#121212]">
       <Navbar/>
-      <div className="flex flex-col container mt-24 mx-auto px-12 py-4 gap-y-20">
+      <div className="flex flex-col container mt-24 mx-auto px-2 md:px-12 py-4 gap-y-20">
         <HeroSection/>
         <AboutSection />
         <ProjectSection/>

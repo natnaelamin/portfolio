@@ -4,11 +4,11 @@ import ProjectCard from './ProjectCard'
 
 const ProjectSection = () => {
   return (
-    <>
+    <div className='grid place-items-center'>
      <div className='text-center'>
       <h2 className='text-4xl text-white mb-4 font-bold'>Projects</h2>
      </div> 
-     <div className='grid grid-cols-2 gap-5 max-w-[90%] h-auto'>
+     <div className='grid md:grid-cols-2 gap-5 max-w-[90%] max-h-[75%]'>
         {Projects.map((project, index) =>(
             <ProjectCard 
             key={index}
@@ -18,7 +18,7 @@ const ProjectSection = () => {
             />
         ))}
       </div>
-    </>
+    </div>
   )
 }
 
