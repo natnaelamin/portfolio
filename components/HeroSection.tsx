@@ -3,24 +3,19 @@ import Image from 'next/image'
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 
-interface HeroSectionProps {
-  name: string;
-  title: string;
-}
-
-const HeroSection = ({ name, title }: HeroSectionProps) => {
+const HeroSection = () => {
   return (
     <section>
       <div className='grid grid-cols-1 sm:grid-cols-12 '>
         <div className='col-span-7 place-self-center text-center sm:text-left'>
             <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-extra-bold mb-4">
-                 <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Hello, I'm{" "}</span>
+                 <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Hello, I&apos;m{" "}</span>
                  <br />
                  <TypeAnimation
                     sequence={[
-                        name,
+                        'Natnael Amin',
                         1000, 
-                        title,
+                        'web developer',
                         1000
                     ]}
                     wrapper="span"
@@ -29,7 +24,7 @@ const HeroSection = ({ name, title }: HeroSectionProps) => {
                  />
             </h1>
             <p className='text-gray-300 mb-6 text-base sm:text-lg lg:text-xl'>
-                I'm a self taught frontend web developer looking for job/internship opportunities.
+                I&apos;m a self taught frontend web developer looking for job/internship opportunities.
             </p>
             <div>
                 <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>Hire me</button>
