@@ -14,11 +14,8 @@ const HeroSection = () => {
                  <br />
                  <TypeAnimation
                     sequence={[
-                        // Same substring at the start will only be typed out once, initially
                         'Natnael Amin',
-                        1000, // wait 1s before replacing "Mice" with "Hamsters"
-                        'a self taught',
-                        1000,
+                        1000, 
                         'web developer',
                         1000
                     ]}
@@ -28,8 +25,7 @@ const HeroSection = () => {
                  />
             </h1>
             <p className='text-gray-300 mb-6 text-base sm:text-lg lg:text-xl'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus deleniti vero aspernatur nulla,
-                tenetur nihil placeat?
+                I'm a self taught frontend web developer looking for job/internship opportunities.
             </p>
             <div>
                 <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>Hire me</button>

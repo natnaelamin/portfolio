@@ -14,4 +14,4 @@ const NavLinks = ({href, title}: iProps) => {
   )
 }
 
-export default NavLinks
+export default NavLinks 

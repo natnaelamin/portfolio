@@ -6,14 +6,21 @@ import { SkillData } from '@/constants'
 import {Autoplay} from 'swiper/modules'
 import Image from 'next/image'
 
-const AboutSection = () => {
+interface iprops{
+    id: any;
+}
+
+const AboutSection = ({id}: iprops) => {
   return (
     <>
-        <div className='px-0 md:px-24 text-center py-8'>
+        <div id={id} className='px-0 md:px-24 text-center py-8'>
             <h2 className='text-4xl text-white mb-4 font-bold'>About Me</h2>
-            <p className='text-base lg:text-lg text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eum quae facere nobis officia a quod et nihil molestiae nostrum! Tenetur illum similique
-                explicabo pariatur incidunt modi suscipit facere cumque dolorem.</p>
+            <p className='text-base lg:text-lg text-white'>As a self-taught programmer,
+                I've been deeply passionate about coding since I first discovered it.
+                Over the past year and a half, I've honed my skills independently,
+                facing and overcoming various challenges. I'm eager to apply my knowledge
+                in a practical setting through an internship or a job, collaborating with a team,
+                and contributing to real-world projects.</p>
         </div>
         <div className='flex flex-col gap-20  text-center items-center'>
         <div className='flex flex-col items-center gap-4'>

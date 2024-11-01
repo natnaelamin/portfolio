@@ -11,9 +11,9 @@ export default function Home() {
       <Navbar/>
       <div className="flex flex-col container mt-24 mx-auto px-2 md:px-12 py-4 gap-y-20">
         <HeroSection/>
-        <AboutSection />
-        <ProjectSection/>
-        <ContactSection/>
+        <AboutSection id="about"/>
+        <ProjectSection id="projects"/>
+        <ContactSection id="contact"/>
       </div>
     </main>
   );

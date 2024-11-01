@@ -2,9 +2,13 @@ import React from 'react'
 import { Projects } from '@/constants'
 import ProjectCard from './ProjectCard'
 
-const ProjectSection = () => {
+interface iprops{
+  id: any;
+}
+
+const ProjectSection = ({id}:iprops) => {
   return (
-    <div className='grid place-items-center'>
+    <div id={id} className='grid place-items-center'>
      <div className='text-center'>
       <h2 className='text-4xl text-white mb-4 font-bold'>Projects</h2>
      </div> 

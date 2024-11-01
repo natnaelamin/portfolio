@@ -1,9 +1,13 @@
 import Link from 'next/link'
 import React from 'react'
 
-const ContactSection = () => {
+interface iprops{
+  id: any;
+}
+
+const ContactSection = ({id}:iprops) => {
   return (
-    <section className='grid md:grid-cols-2 my-12 py-24 gap-4'>
+    <section id={id} className='grid md:grid-cols-2 my-12 py-24 gap-4'>
       <div>
         <h5 className='text-xl font-bold text-white my-2'>Let's Connect</h5>
         <p className='text-[#ADB7BE] mb-4 max-w-md'>
@@ -30,7 +34,7 @@ const ContactSection = () => {
             </div>
             <div className='mb-6'>
                 <label className='text-white block text-sm font-medium mb-2'>Subject</label>
-                <input type="text" name='subject' required placeholder='just saying hi' 
+                <input type="text" name='subject' required placeholder='job offer' 
                 className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9]
                 text-gray-100 text-sm rounded-lg block w-full p-2.5'/>
             </div>
