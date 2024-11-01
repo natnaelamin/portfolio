@@ -3,8 +3,12 @@ import Image from 'next/image'
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 
+interface HeroSectionProps {
+  name: string;
+  title: string;
+}
 
-const HeroSection = () => {
+const HeroSection = ({ name, title }: HeroSectionProps) => {
   return (
     <section>
       <div className='grid grid-cols-1 sm:grid-cols-12 '>
@@ -14,9 +18,9 @@ const HeroSection = () => {
                  <br />
                  <TypeAnimation
                     sequence={[
-                        'Natnael Amin',
+                        name,
                         1000, 
-                        'web developer',
+                        title,
                         1000
                     ]}
                     wrapper="span"
