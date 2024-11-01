@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 
 interface iprops{
-  id: any;
+  id: string;
 }
 
 const ContactSection = ({id}:iprops) => {

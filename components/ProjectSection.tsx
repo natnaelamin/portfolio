@@ -3,7 +3,7 @@ import { Projects } from '@/constants'
 import ProjectCard from './ProjectCard'
 
 interface iprops{
-  id: any;
+  id: string;
 }
 
 const ProjectSection = ({id}:iprops) => {

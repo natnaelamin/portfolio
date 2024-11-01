@@ -7,7 +7,7 @@ import {Autoplay} from 'swiper/modules'
 import Image from 'next/image'
 
 interface iprops{
-    id: any;
+    id: string;
 }
 
 const AboutSection = ({id}: iprops) => {
