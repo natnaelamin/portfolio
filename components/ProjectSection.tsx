@@ -18,7 +18,8 @@ const ProjectSection = ({ id }: iprops) => {
             key={index}
             title={project.title}
             image={project.src}
-            text={project.text}
+            projectlink={project.projectlink}
+            githublink={project.githublink}
           />
         ))}
       </div>

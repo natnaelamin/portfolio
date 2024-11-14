@@ -7,7 +7,7 @@ interface iprops {
 
 const ContactSection = ({ id }: iprops) => {
   return (
-    <section id={id} className='grid md:grid-cols-2 my-12 py-24 gap-4'>
+    <section id={id} className='grid md:grid-cols-2 my-12 py-24 gap-4 text-center md:text-start'>
       <div>
         <h5 className='text-xl font-bold text-white my-2'>Let&apos;s Connect</h5>
         <p className='text-[#ADB7BE] mb-4 max-w-md'>

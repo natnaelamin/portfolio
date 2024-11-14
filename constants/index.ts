@@ -61,23 +61,27 @@ export const SkillData = [
 
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/images/NextWebsite.png",
+    title: "Reddit clone",
+    projectlink: "https://reddit-clone-iota-eosin.vercel.app/",
+    githublink: "https://github.com/natnaelamin/Reddit-clone",
+    src: "/images/Reddit.jpg",
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/images/SpaceWebsite.png",
+    title: "Crowd Funding",
+    projectlink: "https://croud-funding-product-page-latest-1.vercel.app/",
+    githublink: "https://github.com/natnaelamin/Croud-funding-product-page-latest",    
+    src: "/images/crowdfunding.jpg",
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/images/WebPortfolio.png",
+    title: "Top Movies",
+    projectlink: "https://movies-orcin-theta.vercel.app/",
+    githublink: "https://github.com/natnaelamin/Movies",    
+    src: "/images/movies.jpg",
   },
   {
     title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    projectlink: "https://reddit-clone-iota-eosin.vercel.app/",
+    githublink: "https://reddit-clone-iota-eosin.vercel.app/",    
     src: "/images/Matrix.png",
   },
 ];

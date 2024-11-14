@@ -1,14 +1,18 @@
 "use client"
-import React, { useState } from 'react'
-import {motion} from 'framer-motion'
+import React, { useState } from 'react';
+import {motion} from 'framer-motion';
+import { FaEye } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
+import Link from 'next/link';
 
 interface Props{
     image: string;
     title: string;
-    text: string;
+    projectlink: string;
+    githublink: string;
 }
 
-const ProjectCard = ({image, title ,text}: Props) => {
+const ProjectCard = ({image, title ,projectlink, githublink}: Props) => {
     const [isFlipped, setIsFlipped] = useState(false)
     const [isAnimating, setIsAnimating] = useState(false)
 
@@ -42,11 +46,12 @@ const ProjectCard = ({image, title ,text}: Props) => {
         style={{backgroundImage: `url(${image})`}}
         className='w-full h-full group relative flip-card-back bg-center bg-cover text-white rounded-lg p-4'>
             <div className='absolute inset-0 w-full h-full rounded-md bg-black opacity-80 z-[-1]'/>
-            <div className='flex flex-col gap-10 py-3 z-[30]'>
+            <div className='flex flex-col gap-10 py-3 z-[30] justify-center items-center'>
                 <h1 className='text-white text-lg  md:text-2xl font-semibold'>{title}</h1>
-                <p className='text-gray-100 text-sm md:text-[18px]'>
-                    {text}
-                </p>
+                <div className='flex justify-center items-center gap-10'>
+                    <Link href={projectlink} className='text-4xl'><FaEye /></Link>
+                    <Link href={githublink} className='text-4xl'><FaCode /></Link>
+                </div>
             </div>  
         </div>
       </motion.div>
