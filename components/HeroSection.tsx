@@ -1,5 +1,6 @@
 "use client"
 import Image from 'next/image'
+import Link from 'next/link';
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 
@@ -28,7 +29,9 @@ const HeroSection = () => {
             </p>
             <div>
               <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'>
-                    <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span>
+                    <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>
+                      <Link href="/nati_cv.pdf">Download CV</Link>
+                    </span>
               </button>
             </div>
         </div>

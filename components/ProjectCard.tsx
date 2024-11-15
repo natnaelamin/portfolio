@@ -49,8 +49,8 @@ const ProjectCard = ({image, title ,projectlink, githublink}: Props) => {
             <div className='flex flex-col gap-10 py-3 z-[30] justify-center items-center'>
                 <h1 className='text-white text-lg  md:text-2xl font-semibold'>{title}</h1>
                 <div className='flex justify-center items-center gap-10'>
-                    <Link href={projectlink} className='text-4xl'><FaEye /></Link>
-                    <Link href={githublink} className='text-4xl'><FaCode /></Link>
+                    <Link href={projectlink}  className='text-4xl cursor-default'><FaEye /></Link>
+                    <Link href={githublink} className='text-4xl cursor-default'><FaCode /></Link>
                 </div>
             </div>  
         </div>

@@ -57,7 +57,7 @@ export const Projects = [
     title: "Reddit clone",
     projectlink: "https://reddit-clone-iota-eosin.vercel.app/",
     githublink: "https://github.com/natnaelamin/Reddit-clone",
-    src: "/images/Reddit.jpg",
+    src: "/images/redditclone.jpg",
   },
   {
     title: "Crowd Funding",
