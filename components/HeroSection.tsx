@@ -35,7 +35,7 @@ const HeroSection = () => {
         <div className='col-span-5 place-self-center mt-4 lg:mt-0'>
             <div className='rounded-full w-[200px] md:w-[300px] h-[200px] md:h-[300px] overflow-hidden mt-0 lg:mt-8'>
                 <Image 
-                src="/images/hero_pic.jpeg"
+                src="/images/cvpic.jpg"
                 alt='hero'
                 height={300}
                 width={300}

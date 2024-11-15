@@ -13,7 +13,7 @@ interface iprops {
 const AboutSection = ({ id }: iprops) => {
   return (
     <>
-        <div id={id} className='px-0 md:px-24 text-center py-8'>
+        <div id={id} className='px-0 md:px-24 text-center mt-12'>
             <h2 className='text-4xl text-white mb-4 font-bold'>About Me</h2>
             <p className='text-base lg:text-lg text-white'>
                 As a self-taught programmer, I&apos;ve been deeply passionate about coding since I first discovered it.
@@ -23,7 +23,7 @@ const AboutSection = ({ id }: iprops) => {
                 and contributing to real-world projects.
             </p>
         </div>
-        <div className='flex flex-col gap-20 text-center items-center'>
+        <div className='flex flex-col gap-16 text-center items-center'>
             <div className='flex flex-col items-center gap-4'>
                 <h1 className='text-white font-semibold text-[25px]'>
                     Skills <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">

@@ -33,13 +33,6 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Redux",
-    Image: "/images/redux.png",
-    width: 80,
-    height: 80,
-  },
-
-  {
     name: "TypeScript",
     Image: "/images/ts.png",
     width: 80,
@@ -79,9 +72,9 @@ export const Projects = [
     src: "/images/movies.jpg",
   },
   {
-    title: "Matrix themed Website",
-    projectlink: "https://reddit-clone-iota-eosin.vercel.app/",
-    githublink: "https://reddit-clone-iota-eosin.vercel.app/",    
-    src: "/images/Matrix.png",
+    title: "Ip Address Tracker",
+    projectlink: "https://ip-address-tracker-eight-rho.vercel.app/",
+    githublink: "https://github.com/natnaelamin/ip_address_tracker",    
+    src: "/images/ip-address.jpg",
   },
 ];
