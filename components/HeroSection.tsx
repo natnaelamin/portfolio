@@ -1,37 +1,9 @@
-"use client"
 import Image from 'next/image'
 import Link from 'next/link';
-import React, { useState, useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion';
+import TextFade from './TextFade';
 
-const TextFade = ({ texts}: any, {interval = 3000 }) => {
-  const [index, setIndex] = useState(0);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setIndex((prevIndex) => (prevIndex + 1) % texts.length);
-    }, interval);
-
-    return () => clearInterval(timer);
-  }, [texts.length, interval]);
-
-  return (
-    <AnimatePresence mode="wait">
-      <motion.span
-        key={index}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 1, ease: "easeInOut" }}
-      >
-        {texts[index]}
-      </motion.span>
-    </AnimatePresence>
-  );
-};
 
 const HeroSection = () => {
-  const texts = ['Natnael Amin', 'a web developer'];
 
   return (
     <section>
@@ -40,7 +12,7 @@ const HeroSection = () => {
           <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-extra-bold mb-4">
             <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Hello, I&apos;m{" "}</span>
             <br />
-            <TextFade texts={texts} interval={3000} />
+            <TextFade />
           </h1>
           <p className='text-gray-300 mb-6 text-base sm:text-lg lg:text-xl'>
             I&apos;m a self taught frontend web developer looking for job/internship opportunities.
