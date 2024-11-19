@@ -1,5 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
+import { FaPhone } from "react-icons/fa6";
+import { RxGithubLogo } from "react-icons/rx";
+import { BsLinkedin } from "react-icons/bs";
 
 interface iprops {
   id: string;
@@ -16,10 +19,14 @@ const ContactSection = ({ id }: iprops) => {
           Whether you have a question or just want to say hi, I&apos;ll try my best to 
           get back to you!
         </p>
-        <div className='flex flex-row gap-2'>
-          <Link href="github.com">
+        <div className='grid place-items-center md:place-items-start md:gap-10 gap-5 py-5'>
+          <p className=' text-slate-400 flex gap-3 md:text-lg'><FaPhone className='text-white mt-1 md:text-xl'/> +251929245088</p>
+          <Link href="https://github.com/natnaelamin" className=' flex gap-3 text-slate-400 md:text-lg'>
+            <RxGithubLogo className='md:text-xl text-lg text-white mt-1'/> Github
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/natnael-amin-919688229/?originalSubdomain=et" 
+          className=' flex gap-3 text-slate-400 md:text-lg'>
+            <BsLinkedin  className='md:text-xl text-lg text-white mt-1'/>Linkedin
           </Link>
         </div>
       </div>
