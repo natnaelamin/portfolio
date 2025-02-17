@@ -47,6 +47,12 @@ export const SkillData = [
     Image: "/images/framer.png",
     width: 80,
     height: 80,
+  },
+  {
+    name: "Redux",
+    Image: "/images/redux.png",
+    width: 80,
+    height: 80,
   }
 ];
 
