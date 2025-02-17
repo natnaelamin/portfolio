@@ -65,9 +65,9 @@ export const Projects = [
   },
   {
     title: "Top Movies",
-    projectlink: "https://movies-orcin-theta.vercel.app/",
-    githublink: "https://github.com/natnaelamin/Movies",    
-    src: "/images/movies.jpg",
+    projectlink: "https://shophere-nine.vercel.app/",
+    githublink: "https://github.com/natnaelamin/shophere",    
+    src: "/images/shopherepreview.png",
   },
   {
     title: "Ip Address Tracker",
