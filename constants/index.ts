@@ -70,7 +70,7 @@ export const Projects = [
     src: "/images/crowdfunding.jpg",
   },
   {
-    title: "Top Movies",
+    title: "Shophere",
     projectlink: "https://shophere-nine.vercel.app/",
     githublink: "https://github.com/natnaelamin/shophere",    
     src: "/images/shopherepreview.png",
