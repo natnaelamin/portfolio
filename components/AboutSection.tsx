@@ -17,7 +17,7 @@ const AboutSection = ({ id }: iprops) => {
             <h2 className='text-4xl text-white mb-4 font-bold'>About Me</h2>
             <p className='text-base lg:text-lg text-white'>
                 As a self-taught programmer, I&apos;ve been deeply passionate about coding since I first discovered it.
-                Over the past year and a half, I&apos;ve honed my skills independently,
+                Over the past two years, I&apos;ve honed my skills independently,
                 facing and overcoming various challenges. I&apos;m eager to apply my knowledge
                 in a practical setting through an internship or a job, collaborating with a team,
                 and contributing to real-world projects.
